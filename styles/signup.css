@@ -1,0 +1,142 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 50px;
+}
+
+
+.logo{
+    width: 80px;
+}
+
+
+.login-btn {
+    background: #7b5dff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+
+/* Container Layout */
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Form Section */
+.form-container {
+    flex: 1.3;
+    padding: 50px;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Form Inputs */
+form {
+    width: 100%;
+    max-width: 400px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+input {
+    width: 550px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.password-requirements {
+    font-size: 12px;
+    color: #666;
+    margin: 10px 0;
+}
+
+.password-requirements li {
+    list-style: none;
+}
+
+/* Button */
+.signup-btn {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(90deg, #8a2be2, #6a0dad);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.signup-btn:hover {
+    background: linear-gradient(90deg, #6a0dad, #8a2be2);
+}
+
+/* Terms */
+.terms {
+    font-size: 12px;
+    margin-top: 20px;
+
+}
+
+.terms a {
+    color: #8a2be2;
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+/* Image Section */
+.image-container {
+    flex: 0.7;
+    background-color: #fff;
+    display: flex;
+}
+
+.image-container img {
+    max-width: 100%;
+    border-radius: 10px;
+}
